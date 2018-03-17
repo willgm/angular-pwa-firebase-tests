@@ -27,7 +27,11 @@
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
       },
-      "serviceWorker": true
+      "serviceWorker": true,
+      "appShell": {
+        "app": "my-universal",
+        "route": "shell"
+      }
     },
     {
       "root": "src",
