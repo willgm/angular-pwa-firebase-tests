@@ -21,3 +21,25 @@ ng generate app-shell my-app-shell --universal-app=my-universal
 ng build --prod --output-hashing none
 
 ng build --app my-universal --prod --output-hashing none
+
+## SSR on Firebase
+
+### Setup Firebase
+
+npm install -g firebase-tools
+
+firebase login
+
+### Init Hosting
+
+firebase init hosting
+
+```log
+? What do you want to use as your public directory? dist
+? Configure as a single-page app (rewrite all urls to /index.html)? Yes
+? File dist/index.html already exists. Overwrite? No
+```
+
+firebase serve
+
+firebase deploy
