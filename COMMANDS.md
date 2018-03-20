@@ -43,3 +43,7 @@ firebase init hosting
 firebase serve
 
 firebase deploy
+
+### Setup Server with Express
+
+npm i express @angular/platform-server @nguniversal/module-map-ngfactory-loader
